@@ -1,0 +1,46 @@
+﻿.main::-webkit-scrollbar {
+    display: none;
+}
+
+.main {
+    width: 94vw;
+    height: 94vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    align-items: center;
+    position: absolute;
+    left: 3vw;
+    top: 3vh;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    background: #000D26;
+    border-radius: 53px;
+}
+
+
+#barra-laranja {
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 50%;
+    height: 200%;
+    background-image: linear-gradient(#FB7A20, #ff6126);
+    transform: skewX(-30deg);
+    transform-origin: top right;
+}
+
+#barra-azul {
+    width: 5vw;
+    height: 200vh;
+    z-index: -9;
+    background: #011336;
+    position: absolute;
+    right: 75%;
+    top: -30vh;
+    transform: rotate(-330deg);
+}

@@ -1,0 +1,19 @@
+body {
+    background: #011336;
+    overflow: hidden;
+}
+
+.content {
+    max-width: 800px;
+}
+
+
+section {
+    width: 98%;
+    height: 94vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+    color: #FB7A20;
+}
